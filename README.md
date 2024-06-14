@@ -102,17 +102,50 @@ For the next step I have linked a google drive with neccessary files included.
   You will open the PHP Manager and click Enable or Disable an extension
     Enable extensions "php_opcache.dll", "php_intl.dll", and "php_imap.dll"
 
+  <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/804d813d-086c-4de7-9f97-c74a4f83bf0c"/>
   
+  Your osTicket setup screen should now look like this.
 
+  <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/4f4e799c-f774-4072-ba71-f2894ddd17ce"/>
+
+  Next in the directory C:\inetpub\wwwroot\osticket\include we will rename "ost-sampleconfig.php" to "ost-config.php"
+
+  <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/ea647d7b-a356-4b38-9978-eef4c7a101a6"/>
+
+  We will now change the permission settings of the "ost-config.php" 
+    Right click on the "ost-config.php" file and got to properties.
+    Go to the security tab and click on advanced.
+    Click on change permissions and then Disable inheritance
+
+  <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/5be77fec-c19d-410b-8e64-609ef10c66cd"/>
+
+  Now we will add permisions.
+  Click add and under basic permissions check mark Full control, Modify, Read & excecute, Read, and Write.
+  Click select a principal and in the text box type "Everyone"
+
+  Return to the osTicket setup page and click continue
+
+  <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/3e84ab33-9556-4890-b53d-b2bfd459ad93"/>
+
+  Now fill out System Settings and Admin Users section. Make sure to take note of the information you use we will be using it again.
+
+  Next you will install "HeidiSQL_12.3.0.6589_Setup.exe"
+
+  <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/e7212135-f6b2-47b5-83c8-75f6c00a930b"/>
+
+  After insallation launch and start a new session.
+    For this I will be using Username:Root Password:Password1
+  
+  <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/2ed66e7e-a25f-4cdf-99d8-1731b0135091"/>
+
+  Next click open and then right click on unnamed and go to create new> Database. We will name this osTicket
+  
+  <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/e6335b15-5620-4eb4-9bd9-a4122fb64c32"/>
  
+  Next return to the osTicketSetup and use the username, password, and database information we just created in the Database Settings
 
-</p>
-<br />
+  Now click install now
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+  <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/d5e27bdc-fd90-44ef-8349-56d4071274e1"/>
+
+  You should now see this screen and have successfully installed osTicket.
