@@ -6,10 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -20,13 +16,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
-
-- Enabling IIS in Windows Features
-- Installing the prerequisite files
-- Item 3
-- Item 4
-- Item 5
 
 <h2>Installation Steps</h2>
 
@@ -149,3 +138,10 @@ For the next step I have linked a google drive with neccessary files included.
   <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/d5e27bdc-fd90-44ef-8349-56d4071274e1"/>
 
   You should now see this screen and have successfully installed osTicket.
+
+  Now you should change permissions of the "ost-config.php" to read only.
+
+  Finally you should clean up left over the file located at C:\inetpub\wwwroot\osTicket\setup
+
+  Congratulations you have completed installation of osTicket.
+
