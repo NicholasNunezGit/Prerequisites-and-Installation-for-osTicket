@@ -31,7 +31,7 @@ To being the installation process you need to turn on Windows features illustrat
 <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/f332508d-f20c-4853-8749-92a7c73f4ab0" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-For the next step I have linked a google drive containing the neccessary files to install osTicket. [google drive](https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
+For the next step I have linked a google drive containing the neccessary files to install osTicket. (https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
   
   Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi).
   
