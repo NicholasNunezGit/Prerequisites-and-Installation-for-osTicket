@@ -31,7 +31,7 @@ To being the installation process you need to turn on Windows features illustrat
 <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/f332508d-f20c-4853-8749-92a7c73f4ab0" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-For the next step I have linked a google drive with neccessary files included.
+For the next step I have linked a google drive containing the neccessary files to install osTicket. <a href="https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6"/>
   
   Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi).
   
@@ -104,36 +104,36 @@ For the next step I have linked a google drive with neccessary files included.
   We will now change the permission settings of the "ost-config.php" 
     Right click on the "ost-config.php" file and got to properties.
     Go to the security tab and click on advanced.
-    Click on change permissions and then Disable inheritance
+    Click on change permissions and then Disable inheritance.
 
   <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/5be77fec-c19d-410b-8e64-609ef10c66cd"/>
 
   Now we will add permisions.
   Click add and under basic permissions check mark Full control, Modify, Read & excecute, Read, and Write.
-  Click select a principal and in the text box type "Everyone"
+  Click select a principal and in the text box type "Everyone".
 
-  Return to the osTicket setup page and click continue
+  Return to the osTicket setup page and click continue.
 
   <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/3e84ab33-9556-4890-b53d-b2bfd459ad93"/>
 
   Now fill out System Settings and Admin Users section. Make sure to take note of the information you use we will be using it again.
 
-  Next you will install "HeidiSQL_12.3.0.6589_Setup.exe"
+  Next you will install "HeidiSQL_12.3.0.6589_Setup.exe".
 
   <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/e7212135-f6b2-47b5-83c8-75f6c00a930b"/>
 
   After insallation launch and start a new session.
-    For this I will be using Username:Root Password:Password1
+    For this I will be using Username:Root Password:Password1.
   
   <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/2ed66e7e-a25f-4cdf-99d8-1731b0135091"/>
 
-  Next click open and then right click on unnamed and go to create new> Database. We will name this osTicket
+  Next click open and then right click on unnamed and go to create new> Database. We will name this osTicket.
   
   <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/e6335b15-5620-4eb4-9bd9-a4122fb64c32"/>
  
-  Next return to the osTicketSetup and use the username, password, and database information we just created in the Database Settings
+  Next return to the osTicketSetup and use the username, password, and database information we just created in the Database Settings.
 
-  Now click install now
+  Now click install now.
 
   <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/d5e27bdc-fd90-44ef-8349-56d4071274e1"/>
 
