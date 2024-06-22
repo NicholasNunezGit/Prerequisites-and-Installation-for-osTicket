@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial will go over the installation of osTicket over remote desktop on an azure virtual machine.<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -18,6 +18,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <h2>Installation Steps</h2>
+
+
 
 <p>
 <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/d5150d03-385b-4a27-8307-b9ea7b0f286a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
