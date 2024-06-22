@@ -21,10 +21,17 @@ This tutorial will go over the installation of osTicket over remote desktop on a
 
 
 
+
+<img src="https://github.com/NicholasNunezGit/Prerequisites-and-Installation-for-osTicket/assets/172544736/426b1f08-38ab-4406-92ec-37beee4e0d7c"/>
+
+For the start we will remote connect to our azure virtual machine.
+
+
 <p>
 <img src="https://github.com/NicholasNunezGit/Prerequisites-for-osticket/assets/172544736/d5150d03-385b-4a27-8307-b9ea7b0f286a" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
 To being the installation process you need to turn on Windows features illustrated above. You turn will need to turn on the IIS Management Console, CGI, and Common HTTP Features.
 </p>
 <br />
